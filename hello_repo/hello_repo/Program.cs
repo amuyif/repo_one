@@ -3,4 +3,10 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello");
 
 string aFriend = "Aman";
-Console.WriteLine($"Hello {aFriend}");
+string bFriend = "Henok";
+Console.WriteLine($"Hello {aFriend} and {bFriend}");
+
+
+Console.WriteLine(aFriend.Length);
+
+Console.WriteLine($"The name {aFriend} has {aFriend.Length} letters");  
